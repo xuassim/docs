@@ -52,7 +52,7 @@
     {
       "group": "Prise en main de LineChat",
       "pages": [
-        "overview"
+        "overview.mdx"
         "introduction",
         "quickstartttttt",
         "development"
