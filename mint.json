@@ -52,6 +52,7 @@
     {
       "group": "Prise en main de LineChat",
       "pages": [
+        "overview"
         "introduction",
         "quickstartttttt",
         "development"
