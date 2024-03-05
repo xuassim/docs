@@ -7,9 +7,9 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#FFFFF",
-    "light": "#9D9D9D",
-    "dark": "##161617",
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
@@ -27,8 +27,8 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Référence API",
+      "url": "https://dash.linechat.co/api"
     }
   ],
   "anchors": [
