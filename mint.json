@@ -5,7 +5,7 @@
     "dark": "https://clickway.fr/wp-content/uploads/2024/03/Design-sans-titre-17.png",
     "light": "https://clickway.fr/wp-content/uploads/2024/03/Design-sans-titre-17.png"
   },
-  "favicon": "https://clickway.fr/wp-content/uploads/2024/03/Design-sans-titre-18.png",
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#FFFFFF",
     "light": "#FFFFFF",
@@ -40,7 +40,7 @@
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://discord.gg/TjxXUe6t4Y"
     },
     {
       "name": "Blog",
