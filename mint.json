@@ -61,10 +61,12 @@
     {
       "group": "Canaux d'intégrations",
       "pages": [
-        "overview",
-        "introduction",
-        "quickstart",
-        "development"
+        "multicanal",
+        "canal-websites",
+        "canal-facebook",
+        "canal-instagram",
+        "canal-whatsapp",
+        "canal-telegram",
       ]
     },
     {
