@@ -59,6 +59,15 @@
       ]
     },
     {
+      "group": "Canaux d'intégrations",
+      "pages": [
+        "overview",
+        "introduction",
+        "quickstart",
+        "development"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
