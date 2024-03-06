@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Documentation des produits ClickWay",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://clickway.fr/wp-content/uploads/2024/03/Design-sans-titre-17.png",
+    "light": "https://clickway.fr/wp-content/uploads/2024/03/Design-sans-titre-17.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://clickway.fr/wp-content/uploads/2024/03/Design-sans-titre-18.png",
   "colors": {
     "primary": "#FFFFFF",
     "light": "#FFFFFF",
