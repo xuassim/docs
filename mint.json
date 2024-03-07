@@ -63,12 +63,12 @@
     {
       "group": "Construire mon chatbot",
       "pages": [
-        "flow builder/",
-        "canal d'intégrations/canal-whatsapp",
-        "canal d'intégrations/canal-facebook",
-        "canal d'intégrations/canal-instagram",
-        "canal d'intégrations/canal-telegram",
-        "canal d'intégrations/canal-websites"
+        "flow builder/cartes/send-message",
+        "flow builder/cartes/questions",
+        "flow builder/cartes/actions",
+        "flow builder/cartes/split",
+        "flow builder/cartes/if",
+        "flow builder/cartes/comment"
       ]
     },
     {
