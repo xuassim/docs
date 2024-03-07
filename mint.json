@@ -61,20 +61,9 @@
       ]
     },
     {
-      "group": "Canaux d'intégrations",
+      "group": "Intégrer mon chatbot",
       "pages": [
-        "multicanal",
-        "canal-websites",
-        "canal-facebook",
-        "canal-instagram",
-        "canal-whatsapp",
-        "canal-telegram"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
+        "canal d'intégrations/canal-facebook",
         "essentials/code",
         "essentials/images",
         "essentials/settings",
