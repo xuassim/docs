@@ -8,7 +8,7 @@
   "favicon": "https://clickway.fr/wp-content/uploads/2024/03/Design-sans-titre-19.png",
   "colors": {
     "primary": "#FFFFFF",
-    "light": "#FFFFFF",
+    "light": "#BBBBBB",
     "dark": "#0D9373",
     "anchors": {
       "from": "#0D9373",
