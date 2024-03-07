@@ -61,9 +61,9 @@
       ]
     },
     {
-      "group": "Intégrer mon chatbot",
+      "group": "Construire mon chatbot",
       "pages": [
-        "canal d'intégrations/multicanal",
+        "flow builder/",
         "canal d'intégrations/canal-whatsapp",
         "canal d'intégrations/canal-facebook",
         "canal d'intégrations/canal-instagram",
