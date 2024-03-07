@@ -62,13 +62,14 @@
     },
     {
       "group": "Construire mon chatbot",
-      "pages": [
-        "flow builder/Cartes/send-message",
-        "flow builder/Cartes/questions",
-        "flow builder/Cartes/actions",
-        "flow builder/Cartes/split",
-        "flow builder/Cartes/if",
-        "flow builder/Cartes/comment"
+        "group": "Constructeur de flux"
+        "pages": [
+          "flow builder/Cartes/send-message",
+          "flow builder/Cartes/questions",
+          "flow builder/Cartes/actions",
+          "flow builder/Cartes/split",
+          "flow builder/Cartes/if",
+          "flow builder/Cartes/comment"
       ]
     },
     {
