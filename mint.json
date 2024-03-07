@@ -66,7 +66,7 @@
         "flow builder/Cartes/send-message",
         "flow builder/Cartes/questions",
         "flow builder/Cartes/actions",
-        "flow builder/Cartes/split",
+        "/Cartes/split",
         "flow builder/Cartes/if",
         "flow builder/Cartes/comment"
       ]
