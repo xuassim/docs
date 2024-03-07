@@ -63,12 +63,12 @@
     {
       "group": "Intégrer mon chatbot",
       "pages": [
+        "canal d'intégrations/multicanal",
+        "canal d'intégrations/canal-whatsapp",
         "canal d'intégrations/canal-facebook",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "canal d'intégrations/canal-instagram",
+        "canal d'intégrations/canal-telegram",
+        "canal d'intégrations/canal-websites"
       ]
     },
     {
