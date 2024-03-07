@@ -35,9 +35,9 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Tutoriels vidéo",
+      "icon": "youtube",
+      "url": "https://www.youtube.com/channel/UC1K2-BnC7YQyOu5DwH_OBGg"
     },
     {
       "name": "Communauté",
@@ -47,7 +47,7 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://linechat.co/blog"
     }
   ],
   "navigation": [
