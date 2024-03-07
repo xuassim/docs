@@ -72,6 +72,17 @@
       ]
     },
     {
+      "group": "Intégrer mon chatbot",
+      "pages": [
+        "canal d'intégrations/multicanal",
+        "canal d'intégrations/canal-whatsapp",
+        "canal d'intégrations/canal-facebook",
+        "canal d'intégrations/canal-instagram",
+        "canal d'intégrations/canal-telegram",
+        "canal d'intégrations/canal-websites"
+      ]
+    },
+    {
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
