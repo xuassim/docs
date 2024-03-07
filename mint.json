@@ -66,7 +66,27 @@
         "flow builder/Cartes/send-message",
         "flow builder/Cartes/questions",
         "flow builder/Cartes/actions",
-        "/Cartes/split",
+        "flow builder/Cartes/split",
+        "flow builder/Cartes/if",
+        "flow builder/Cartes/comment"
+      ]
+    },
+    {
+      "group": "Construire mon chatbot",
+      "pages": [
+        "flow builder/Cartes/send-message",
+        "flow builder/Cartes/questions",
+        "flow builder/Cartes/actions",
+        "flow builder/Cartes/split",
+        "flow builder/Cartes/if",
+        "flow builder/Cartes/comment"
+      ]
+        "group" : "Avancé"
+        "pages": [
+        "flow builder/Cartes/send-message",
+        "flow builder/Cartes/questions",
+        "flow builder/Cartes/actions",
+        "flow builder/Cartes/split",
         "flow builder/Cartes/if",
         "flow builder/Cartes/comment"
       ]
