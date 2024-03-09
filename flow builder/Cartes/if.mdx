@@ -1,4 +1,22 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: 'Carte : "Conditions"'
 ---
+Avec l'étape Condition, vous pouvez passer à différentes étapes/sous-flux en fonction de conditions définies. Par exemple, **si** vos horaires de travail sont définies comme fermé temporairement **alors** chaque personne qui tentera de vous contacter par chat en direct recevra un message d'erreur. 
+
+Cette carte fonctionne toujours avec 
+
+## Si (if)
+
+Conditions pour qu'une action se déroule, ou non. Par exemple : **si nous nous trouvons hors des horaires d'ouverture de notre entreprise...**
+
+## Alors 
+
+Une fois la conditions définie, choisissez la conséquence. Exemple : **...alors envoyer le message "Désolé, aucun agent disponible car nous sommes fermé, cependant vous pouvez nous envoyer votre demande pour qu'elle soit traitée dès que possible"**
+
+## Autrement (ou sinon)
+
+Si par contre, nous sommes dans la situation ou nous sommes à l'inverse de la situation, en l'occurence pour cet exemple : **si c'est pendant les horaires d'ouverture, alors assigner à un agent**.
+
+#### Résumé 
+
+**Si**, "Entreprise fermée", **alors** "Envoyer le message : "Désolé, aucun agent disponible car nous sommes fermé, cependant vous pouvez nous envoyer votre demande pour qu'elle soit traitée dès que possible", **sinon** executer l'action : attribuer à un agent.
