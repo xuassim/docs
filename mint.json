@@ -74,6 +74,7 @@
     {
       "group": "Intégrer mon chatbot",
       "pages": [
+        "canal d'intégrations/intro-canal",
         "canal d'intégrations/multicanal",
         "canal d'intégrations/canal-whatsapp",
         "canal d'intégrations/canal-facebook",
