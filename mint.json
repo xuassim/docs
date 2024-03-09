@@ -63,7 +63,7 @@
     {
       "group": "Construire mon chatbot",
       "pages": [
-         "flow builder/Cartes/send-message",
+         "flow builder/Cartes/send-messages",
          "flow builder/Cartes/questions",
          "flow builder/Cartes/actions",
          "flow builder/Cartes/split",
