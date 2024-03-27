@@ -54,7 +54,6 @@
     {
       "group": "Prise en main de LineChat",
       "pages": [
-        "overview",
         "introduction",
         "quickstart",
         "build-chatbot"
