@@ -56,13 +56,13 @@
       "pages": [
         "introduction",
         "quickstart",
-        "build-chatbot"
+        "build-chatbot",
+        "flow-builder"
       ]
     },
     {
       "group": "Construire mon chatbot",
       "pages": [
-        "flow-builder",
          "flow builder/Cartes/send-messages",
          "flow builder/Cartes/questions",
          "flow builder/Cartes/actions",
@@ -83,7 +83,13 @@
             ]
     },
     {
-      "group": "Intégrer mon chatbot",
+      "group": "Chat en direct",
+      "pages": [
+        "livechat/livechat"
+      ]
+    },
+    {
+      "group": "Déployer mon chatbot",
       "pages": [
         "canal d'intégrations/intro-canal",
         "canal d'intégrations/multicanal",
@@ -93,24 +99,10 @@
         "canal d'intégrations/canal-telegram",
         "canal d'intégrations/canal-websites"
       ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
-    "Youtube": "https://www.youtube.com/channel/UC1K2-BnC7YQyOu5DwH_OBGg",
+    "youtube": "https://www.youtube.com/channel/UC1K2-BnC7YQyOu5DwH_OBGg",
     "linkedin": "https://www.linkedin.com/company/linechat/"
   }
 }
