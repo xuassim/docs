@@ -63,13 +63,16 @@
     {
       "group": "Construire mon chatbot",
       "pages": [
-         "flow builder/Cartes/send-messages",
+                    {
+                "group": "Cartes/Etapes",
+                "pages": ["flow builder/Cartes/send-messages",
          "flow builder/Cartes/questions",
          "flow builder/Cartes/actions",
          "flow builder/Cartes/goto",
          "flow builder/Cartes/split",
          "flow builder/Cartes/if",
-         "flow builder/Cartes/comment"
+         "flow builder/Cartes/comment"]
+            }
       ]
     },
     {
@@ -85,6 +88,7 @@
     {
       "group": "Chat en direct",
       "pages": [
+        "livechat/config",
         "livechat/livechat"
       ]
     },
