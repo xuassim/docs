@@ -1,20 +1,37 @@
 ---
 title: 'Comprendre le constructeur de flux'
-description: 'Comprenez et apprennez à utiliser le constructeur de flux'
 ---
 Pour bien comprendre **comment marche le flow builder**, vous devez comprendre que votre **chatbot suis un fil de discussion que vous allez construire ici même, dans votre flow builder.**
 
-Le flux de discussion est composé de différentes étapes reliés entre elles par des noeuds , les étapes sont accessible ici :
+<Info>
+  **Attention** Pour modifier le flux en cours, il faut **passer en version brouillon**, en cliquant sur modifier le flux dans le bord supérieur gauche de la zone d'edition visuelle.
+</Info>
+
+## Le constructeur de flux c'est quoi ?
+
+Le constrcuteur de flux est l'editeur visuel du flux de discussion
+
+**Voilà à quoi il ressemble** : 
+
+<img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1711542924/SCR-20240327-mdjz_gywkhg.png" />
+
+Le flux de discussion est composé de différentes étapes reliés entre elles par des noeuds, les étapes **aussi appellée cartes** sont accessible ici :
 
 **Parmi ces étapes, il y'a :**
 
 - Envoyer un message : permet d'envoyer un message comprenant du texte, une image etc...
-- Question : très similaire au message, permet d'envoyer un message, et de récupérer la réponse de l'utilisateur sous forme de variable
+- Poser une question : très similaire au message, permet d'envoyer un message, et de récupérer la réponse de l'utilisateur sous forme de variable
 - Action : permet de réaliser différentes actions qui traites les données du flux de discussion
-- Condition (ici état) : permet de conditionner un choix de direction du flux de discussion
+- Condition : permet de conditionner un choix de direction du flux de discussion (si il se passe tel évènement, alors)
 - Diviser : divise le flux de discussion
 - Envoyer un mail : action d'envoie d'un mail
 - Aller à : conduit directement le flux vers un bloc existant (pratique pour ne pas avoir des noeuds dans tous les sens)
 - Commentaire : commentaire interne que vous êtes le seul à voir
 
 Appuyez sur l'étape qui vous intéresse pour qu'elle apparaisse dans votre flux de discussion, **puis reliez les différentes étapes entres elles pour terminer le flux de discussion**.
+
+## Comment ajouter une carte/étape ?
+
+Faites un clic droit n'importe où dans la zone d'edition visuelle.
+
+
