@@ -79,7 +79,7 @@
             "quickstart",
             {
                 "group": "Nested Reference Pages",
-                "pages": ["nested-reference-page"]
+                "pages": ["build-chatbot"]
             }
             ]
     },
