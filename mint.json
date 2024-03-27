@@ -73,6 +73,19 @@
          "flow builder/Cartes/comment"
       ]
     },
+    "navigation": [
+    {
+        "group": "Getting Started",
+        "pages": [
+            "quickstart",
+            {
+                "group": "Nested Reference Pages",
+                "pages": ["nested-reference-page"]
+            }
+        ]
+    }
+]
+
     {
       "group": "Intégrer mon chatbot",
       "pages": [
