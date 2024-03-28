@@ -76,7 +76,7 @@
             {
                 "group": "Intégrations",
                 "pages": [
-                  "intgration/openai",
+                  "integration/openai",
                   "integration/shopify"
                 ]
             }
