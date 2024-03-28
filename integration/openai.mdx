@@ -25,6 +25,8 @@ Dans cette page, vous allez apprendre à **connecter ChatGPT à LineChat et à v
 
 Voici plus de détail dans cette vidéo :
 
+<iframe width="500" height="250" src="https://www.youtube.com/embed/VgnlPocbIpQ" title="Connecter ChatGPT/OpenAI à son chatbot LineChat - Tutoriel en français" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+
 
 ## Utiliser l'IA dans LineChat
 
@@ -57,6 +59,8 @@ Même principe qu'au dessus, **pour generer une fonction JS, rendez vous dans ac
 
 ## Utiliser l'IA dans vos flux de discussion
 
+#### Configurer l'action
+
 Ajoutez l'IA dans votre flux de discussion en allant dans **Action>Intégrations>OpenAI**
 
 Dans le menu lateral droit, vous pouvez modifier l'action, en ajoutant celle dont vous avez besoin. 
@@ -67,7 +71,7 @@ Les actions les plus utilisée sont :
 - Génération d'image 
 - Audio vers le texte
 
-<Info>L'IA fonctionne avec des données entrantes et sortantes, **configurez donc avant une carte "question" et sauvegardez la requete de l'utilisateur dans une variable**. [Regardez cette vidéo pour plus d'infos.](https://platform.openai.com/docs/introduction) </Info>
+<Info>L'IA fonctionne avec des données entrantes et sortantes, **configurez donc avant une carte "question" et sauvegardez la requete de l'utilisateur dans une variable**. [Regardez cette vidéo pour plus d'infos.](https://www.youtube.com/watch?v=VgnlPocbIpQ&ab_channel=LineChat) </Info>
 
 <img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1711629240/Capture_d_%C3%A9cran_2024-03-28_133344_alpg4e.png" />
 
@@ -86,9 +90,26 @@ Voici un tableau des paramètres les plus courant, si vous avez besoins de savoi
 | Jeton maximum   | Nombres de jetons (**tokens**) que l'IA à le droit d'utiliser dans la génération de la réponse. (1 token est environ égale à un charactère) |
 | **Message**     | **Requête/Question de l'utilisateur**                   |
 
+#### Envoyer une valeure d'éssai
+<img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1711631760/Capture_d_%C3%A9cran_2024-03-28_141539_my0wbc.png" />
 
+Remplissez le champ valeur d'essai par une question de test pour tester notre connexion à ChatGPT
 
+Ciquez ensuite sur envoyer une demande de test
 
+#### Récupérer la réponse de ChatGPT
+
+<img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1711632008/Capture_d_%C3%A9cran_2024-03-28_141936_k83avs.png" />
+
+Une fois que votre requete est envoyée, vous trouverez une réponse dans le code JSON, **allez à la source de la reponse puis selectionnez la ligne la plus à droite des autres avec le contenu de la réponse** (*ici ; value : **Il y'a 1 chambre**...*)
+
+**Sauvegarder la réponse dans un champ personnalisé (dans une variable)** 
+
+Ici nous avons choisi la variable : OpenAI Output
+
+#### Afficher la réponse de ChatGPT dans la discussion
+
+Ajoutez une carte envoyer un message et affichez la variable préalablement configurée (soit : OpenAI Output)
 
 
 
