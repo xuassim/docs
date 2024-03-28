@@ -72,18 +72,15 @@
          "flow builder/Cartes/split",
          "flow builder/Cartes/if",
          "flow builder/Cartes/comment"]
+            },
+            {
+                "group": "Intégrations",
+                "pages": [
+                  "intgration/openai",
+                  "integration/shopify"
+                ]
             }
       ]
-    },
-    {
-        "group": "Getting Started",
-        "pages": [
-            "quickstart",
-            {
-                "group": "Nested Reference Pages",
-                "pages": ["build-chatbot"]
-            }
-            ]
     },
     {
       "group": "Chat en direct",
