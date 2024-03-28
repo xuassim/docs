@@ -1,0 +1,94 @@
+---
+title: 'OpenAI/ChatGPT'
+---
+
+Dans cette page, vous allez apprendre à **connecter ChatGPT à LineChat et à vous en servir**.
+
+## Comment connecter OpenAI à LineChat
+
+<Steps>
+  <Step title="Se rendre sur OpenAI">
+     Rendez vous sur https://platform.openai.com et connectez vous **à votre compte ChatGPT classique**.
+  </Step>
+  <Step title="Créer une clé API">
+    Créez votre clé API depuis la barre latérale gauche du site, dans "API Keys". **Copiez là et sauvegardez la en lieu sur, c'est très important**.
+  </Step>
+    <Step title="Ajoutez du crédit OpenAI">
+      ChatGPT consomme des ressources, en fonction du modèle utilisé le prix diffère mais notez que **pour une entrprise classique, 5 à 10 dollars par mois/trimestres suffisent.**
+
+      Pour se faire, dans la barre latérale gauche, allez dans **Settings**>**Billing** et ajoutez du crédit à votre balance.
+    </Step>
+     <Step title="Coller la clé API dans LineChat">
+      Dans LineChat, dans la barre latérale gauche, rendez vous dans intégrations puis OpenAI, **collez votre clé API puis validez**. La mention "verifiée" doit apparaitre sur le coin supérieur droit de la page pour **que la connexion soit établie**.
+    </Step>
+</Steps>
+
+Voici plus de détail dans cette vidéo :
+
+
+## Utiliser l'IA dans LineChat
+
+### Generer des flux de discussion (bêta)
+
+Vous pouvez générer des flux de discusion grâce à ChatGPT directement dans la page "sous flux" du constructeur de flux
+
+<img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1711628544/Capture_d_%C3%A9cran_2024-03-28_132202_vpys8l.png" />
+
+Cliquez sur le bouton vert en haut à droite.
+
+#### Consigne de prompt
+
+Etant limité à 200 caractère, votre prompt doit aller **droit au but** :
+
+- Définissez la langue souhaitez
+- Expliquer clairement l'objectif du chatbot 
+
+*exemple : Agence de voyage, en français, pour reservation de rendez vous*
+
+<Info>Cette fonctionnalité ne genère que des flux très basique pour le moment, plus de fonctionnalités à venir.</Info>
+
+### Générer des fonctions JavaScript
+
+Même principe qu'au dessus, **pour generer une fonction JS, rendez vous dans action> action avancées> Fonction JavaScript**.
+
+### Générer des intents
+
+(à venir)
+
+## Utiliser l'IA dans vos flux de discussion
+
+Ajoutez l'IA dans votre flux de discussion en allant dans **Action>Intégrations>OpenAI**
+
+Dans le menu lateral droit, vous pouvez modifier l'action, en ajoutant celle dont vous avez besoin. 
+
+Les actions les plus utilisée sont : 
+
+- Réponse IA textuelle ou vocale (via ChatGPT ou un assistant custom)
+- Génération d'image 
+- Audio vers le texte
+
+<Info>L'IA fonctionne avec des données entrantes et sortantes, **configurez donc avant une carte "question" et sauvegardez la requete de l'utilisateur dans une variable**. [Regardez cette vidéo pour plus d'infos.](https://platform.openai.com/docs/introduction) </Info>
+
+<img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1711629240/Capture_d_%C3%A9cran_2024-03-28_133344_alpg4e.png" />
+
+**Une fois que vous avez choisi votre action, configurez les paramètre de celle ci**
+
+**Vous aurez la plupart du temps une case "Message" : elle correspond à la requête de l'utilisateur préalablement sauvegarder sous forme de variable**.
+
+Voici un tableau des paramètres les plus courant, si vous avez besoins de savoir plus de chose, allez jeter un oeil à la **[documentation OpenAI](https://platform.openai.com/docs/introduction)**. 
+
+<Warning>Si vous débutez, **les valeures définies par défaut sont les plus optimales alors merci de ne pas y toucher.**</Warning>
+
+| Paramètres | Utilisation                           |
+| -------- | ------------------------------------- |
+| Instuctions     | Règle que l'IA va suivre pour générer une réponses (en anglais : **prompt**)                     |
+| Température      | Valeure qui définie la créativité de l'IA dans la génération de la réponse. (Proche de 0 : créativité et liberté très limitée, proche de 1 créativité et libertée de base)                         |
+| Jeton maximum   | Nombres de jetons (**tokens**) que l'IA à le droit d'utiliser dans la génération de la réponse. (1 token est environ égale à un charactère) |
+| **Message**     | **Requête/Question de l'utilisateur**                   |
+
+
+
+
+
+
+
