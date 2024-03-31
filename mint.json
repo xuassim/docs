@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Documentation LineChat",
   "logo": {
-    "dark": "https://clickway.fr/wp-content/uploads/2024/03/Capture_d_ecran_2024-02-14_195612-removebg-preview-e1709754192143.png",
-    "light": "https://clickway.fr/wp-content/uploads/2024/03/Capture_d_ecran_2024-02-14_195629-removebg-preview-e1709754226683.png"
+    "dark": "https://res.cloudinary.com/dfp1qo2jy/image/upload/v1711908098/Centre_d_aide_5_yqgaet.png",
+    "light": "https://res.cloudinary.com/dfp1qo2jy/image/upload/v1711908172/Centre_d_aide_7_kztd9o.png"
   },
   "favicon": "https://clickway.fr/wp-content/uploads/2024/03/Design-sans-titre.svg",
   "colors": {
