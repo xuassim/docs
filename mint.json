@@ -84,6 +84,13 @@
       ]
     },
     {
+      "group": "Fonctionnalités",
+      "pages": [
+        "livechat/config",
+        "livechat/livechat"
+      ]
+    },
+    {
       "group": "Chat en direct",
       "pages": [
         "livechat/config",
