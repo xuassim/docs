@@ -5,3 +5,107 @@ Utilisez des séquences pour envoyer automatiquement des messages de suivi ou de
 
 Créez une séquence en allant dans **la barre latérale>Automatisations>Séquences>Nouvelle séquence**.
 
+<img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1712484347/SCR-20240407-kxme_mnw9x4.png" />
+
+### 5 étapes pour créer une séquence :
+
+<img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1712484655/SCR-20240407-kyvw_ub9otr.png" />
+
+1. donner un nom à la séquence
+
+2. cliquez sur "Ajouter un message"
+
+3. modifier les paramètres (voir Paramètres du message ci-dessous)
+
+4. choisir le sous-flux à envoyer
+
+5. répétez les étapes 2 à 4 pour ajouter d'autres messages, puis cliquez sur "Enregistrer".
+
+### Paramètres de message
+
+<img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1712484903/SCR-20240407-laaq_ytrdbf.png" />
+
+1. Le compte à rebours pour l'envoi du message
+
+Les messages sont envoyés par ordre.
+Pour le premier message, le compte à rebours commence lorsque les utilisateurs se sont abonnés à la séquence.
+
+Pour les autres messages, le compte à rebours commence lorsque le message précédent est envoyé.
+
+2. Envoyer à tout moment ou à l'intérieur d'une plage horaire
+
+Pour "envoyer à tout moment", le message sera envoyé immédiatement à la fin du compte à rebours.
+
+Pour "envoyer entre", si le compte à rebours se termine en dehors de la plage horaire, le message sera conservé jusqu'au prochain moment disponible.
+
+N'oubliez pas de vérifier la question du fuseau horaire ci-dessous.
+
+Par exemple, vous ne voulez pas déranger les utilisateurs la nuit et vous avez donc programmé l'envoi d'un message entre 9 heures et 18 heures. Si un message doit être envoyé à 20 heures, le système le conservera jusqu'à demain matin 9 heures.
+
+Cela peut affecter le message suivant, car le compte à rebours du message suivant commence lorsque le message précédent est envoyé.
+
+3. Envoyer les jours de la semaine
+
+De même, si vous ne voulez pas déranger les utilisateurs le week-end, désélectionnez le samedi et le dimanche. Voir l'exemple dans "envoyer entre" ci-dessus.
+
+N'oubliez pas de vérifier la question du fuseau horaire ci-dessous.
+
+#### Paramètres spécifiques à certains canaux
+
+4. Choisir le type de contenu correspondant (IMPORTANT)
+
+Voir l'introduction "Type de contenu" ci-dessous.
+
+Si vous n'êtes pas sûr du type de contenu à utiliser, conservez la valeur par défaut. Bien que le message puisse ne pas être envoyé en raison de la règle des 24 heures, le système vous aidera au moins à éviter d'être banni par Facebook.
+
+5. Choisissez un type de notification
+
+### À propos du fuseau horaire
+
+Si un canal dispose d'un fuseau horaire dans le profil de l'utilisateur, comme Facebook, lorsque le système vérifie les paramètres "envoyer entre les plages horaires" et "envoyer du lundi au dimanche", il se base d'abord sur le fuseau horaire de l'utilisateur. Si l'utilisateur n'a pas de fuseau horaire ou si le canal ne prend pas en charge le fuseau horaire dans les profils d'utilisateur, le système se base sur le fuseau horaire de l'espace de travail.
+
+### Type de contenu
+Tout message envoyé plus de 24 heures après la dernière interaction d'un abonné doit avoir un type de contenu correspondant à son objectif (conformément aux règles de Facebook - balises de message).
+
+Les messages de type "Autre" ou sans type de contenu ne seront PAS envoyés aux abonnés qui ont interagi avec vous via Messenger il y a plus de 24 heures.
+
+<Warning>Remarque - L'envoi de messages ne correspondant pas au type de contenu attribué peut entraîner la suspension ou l'interdiction de votre page par Facebook.</Warning>
+
+- Par défaut / Autre
+
+Peut contenir des promotions et ne sera envoyé qu'aux utilisateurs qui ont interagi avec votre chatbot au cours des dernières 24 heures.
+
+- Mise à jour d'un événement confirmé
+
+Envoyer à l'utilisateur des rappels ou des mises à jour pour un événement auquel il s'est inscrit (par exemple des billets achetés). Cette balise peut être utilisée pour les événements à venir ou en cours.
+
+- Poster la mise à jour d'un achat
+
+Notifier à l'utilisateur une mise à jour concernant un achat récent, telle que la confirmation des transactions (facture, reçu) et des notifications sur le statut de l'expédition (produit en transit, expédié, livré, retardé).
+
+- Mise à jour du compte : 
+
+Notifier à l'utilisateur une modification non récurrente de son application ou de son compte.
+
+### Abonner un utilisateur à une séquence 
+
+Vous pouvez abonner un utilisateur à une séquence depuis le flux de discussion en allant dans **Actions>Actions de base**.
+
+Il existe quelques exemples d'utilisation de la séquence, tels que
+
+"Suivi de l'événement" - envoyer un message de confirmation immédiatement après l'inscription de l'utilisateur et un message de suivi en guise de rappel ou d'aide.
+
+"Obtenir un retour client" - demander un retour d'experience environ 2 heures après que l'utilisateur a parlé à votre chatbot.
+
+"Envoyer des coupon" - envoie des coupons lorsque l'utilisateur met quelque chose dans son panier mais ne passe pas commande pendant un certain temps.
+
+
+
+
+
+
+
+
+
+
+
