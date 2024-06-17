@@ -1,0 +1,80 @@
+---
+title: 'Tableaux'
+---
+
+Les tableaux sont des outils similaires à Trello ou Simple CRM qui peuvent être gérés dans la plateforme LineChat. 
+
+Ils fonctionne comme un CRM permettent de gérer, classer et trier un groupe d'utilisateurs qui passent par plusieurs étapes d'un système de funnel.
+
+Il fonctionne donc avec différentes collonnes, comme ce que l'ont peut trouver sur la plupart des CRM, ou sur Trello.
+
+### Cas d'utilisation des tableaux
+
+Les cas d'utilisation des tableaux incluent :
+
+* **Pipeline de vente & gestion de l'acquisition client**
+* **Support client**
+* **Gestion des tâches**
+* **Gestion de projet**
+
+### Création d'un tableau
+
+Pour créer un tableau, suivez les étapes suivantes :
+
+1. Dans le menu du constructeur de flux, cliquez sur "Tableaux" situé à gauche, en dessous de "Utilisateurs de bot".
+2. Cliquez sur le bouton "Créer un premier tableau".
+3. Dans la fenêtre contextuelle, entrez le nom du tableau (par exemple, "Pipeline de vente").
+4. Ajoutez les colonnes nécessaires au tableau en cliquant sur "Ajouter une colonne". 
+Dans cet exemple, nous allons ajouter les colonnes suivantes : Nouveau lead, Contacté, Démonstration programmée, Proposition envoyée, Gagné (qui veut dire vendu), pour classer fictivement des utilisateurs de notre assistant en fonction de leur avancé dans notre système de vente, qui lui aussi est fictif.
+5. Enregistrez le tableau.
+
+    <img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1718622034/SCR-20240617-lram_hqqgui.png" />
+
+### Utilisation des tableaux
+
+Pour utiliser un tableau, suivez les étapes suivantes :
+
+1. Dans le constructeur de flux, créez un bloc d'action et choisissez "Tableau".
+
+    <img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1718622363/SCR-20240617-lszu_ahcrsa.png" />
+
+2. Sélectionnez le topic où vous souhaitez positionner l'utilisateur à la fin d'un processus.
+3. Ajoutez une note à l'action avec les options suivantes : Aucun changement, Mettre à jour la note, Effacer la note. (Les notes sont simplement des remarques que vous pouvez ajouter automatiquement en même temps que votre utilisateur soit transféré dans votre tableau)
+
+    <img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1718622365/SCR-20240617-lsut_n8h9dy.png" />
+
+4. Enregistrez les détails de la note.
+
+
+### Prévisualisation de l'action du bloc
+
+Prévisualisez l'action du bloc avec la fonction "Tableau" sur une page web contextuelle. Vous ne verrez pas d'action sur la page web ou dans votre conversation, car nous testons uniquement le bloc d'action qui est un processus automatique interne
+
+### Utilisation du tableau
+
+Fermez la page web de test et ouvrez le tableau, puis actualisez la page. Vous devriez voir l'utilisateur ajouté à la colonne que vous avez séléctionné dans le constructeur de flux avec la note correspondante.
+
+Vous pouvez maintenant communiquer directement avec l'utilisateur depuis le tableau.
+
+Vous pouvez également déplacer manuellement les utilisateurs à travers les différentes collones du tableau en les faisant glisser de gauche à droite ou de droite à gauche.
+
+### Automatisation
+
+Vous pouvez également automatiser le processus en déplaçant les utilisateurs à travers les différentes étapes du tableau en fonction de leurs actions.
+
+Par exemple, si un utilisateur fais un certain action, vous pouvez déplacer l'utilisateur à la prochaine étape du tableau. Configurez tout ça depuis le constructeur de flux.
+
+### Chat en direct
+
+Vous pouvez également modifier les paramètres du tableau depuis la page de chat en direct. Sélectionnez l'utilisateur et cliquez sur l'icône de crayon pour modifier les paramètres.
+
+### Aperçu des utilisateurs de bot
+
+Vous pouvez également accéder au tableau depuis la page des utilisateurs de bot. Sélectionnez l'utilisateur pour lequel vous souhaitez accéder au tableau, puis cliquez sur l'icône de crayon pour accéder au tableau.
+
+### Limitations du tableau
+
+Il y a certaines limitations à prendre en compte lors de l'utilisation des tableaux :
+
+* Dans un espace de travail, vous ne pouvez avoir qu'un seul tableau.
+* Dans ce tableau, vous pouvez avoir un maximum de 20 colonnes.
