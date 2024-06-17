@@ -2,7 +2,9 @@
 title: 'Evénements et rapports personnalisés dans LineChat'
 ---
 
-Le suivi des événements et les rapports personnalisés dans LineChat permettent aux utilisateurs de suivre divers événements qui se produisent dans les automatisations de bots et de visualiser ces événements via des analyses sous forme d'événements personnalisés et de rapports personnalisés.
+Le suivi des événements et les rapports personnalisés dans LineChat permettent aux utilisateurs de suivre divers événements qui se produisent dans leurs assistant et de visualiser ces événements via des analyses sous forme d'événements personnalisés et de rapports personnalisés.
+
+**Pour l'exemple nous allons tracker le nombre de clics sur un bouton**
 
 ### Création et utilisation d'événements personnalisés dans LineChat
 
@@ -10,12 +12,27 @@ Vous pouvez créer et utiliser des événements personnalisés dans LineChat en 
 
 1. Dans votre tableau de bord, cliquez sur le bot et entrez dans le constructeur de flux.
 2. Sélectionnez l'onglet Contenu, puis sélectionnez les événements personnalisés.
+    <img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1718619915/SCR-20240617-leih_rx9yuu.png" />
 3. Lors de la création d'un nouvel événement, vous devez fournir les paramètres suivants :
 	* **Nom de l'événement** : utilisé pour nommer l'événement personnalisé.
 	* **Description de l'événement** : utilisé pour décrire ce que l'événement personnalisé fait et suit.
 	* **Noms de paramètres** : ces sont les noms des paramètres que vous souhaitez suivre, par exemple le produit, la catégorie de vente, le nom de la personne, etc.
-4. Vous n'avez pas à remplir chaque paramètre pour que l'événement fonctionne, mais vous devez fournir au moins un paramètre pour suivre.
-5. Après avoir créé un événement, entrez dans votre constructeur de flux et ajoutez l'action "Événement personnalisé" du bloc d'actions pour commencer à intégrer l'événement et à le suivre.
+    <img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1718620073/SCR-20240617-lfdx_o7qfhf.png" />
+<Info> Vous n'avez pas à remplir chaque paramètre pour que l'événement fonctionne, mais vous devez fournir au moins un paramètre pour suivre.</Info>
+4. Après avoir créé un événement, entrez dans votre constructeur de flux et ajoutez l'action "Événement personnalisé" du bloc d'actions pour commencer à intégrer l'événement et à le suivre.
+
+Exemple : 
+    <img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1718620317/SCR-20240617-lgtm_l3si6a.png" />
+
+    L'evenement est créé, je peux donc l'utiliser dans le constructeur de flux : 
+
+    <img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1718620861/SCR-20240617-ljio_z1gghx.png" />
+
+    Voici la configuration de cette carte, j'ai simplement remplacé les valeur que j'ai créé quand j'ai créé mon évenement personnalisé avec la variable "channel" pour tracker le canal utilisé par mon utilisateur et la valeur 1 pour ajouter un clic.
+
+    <img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1718620867/SCR-20240617-liyw_e2li2r.png" />
+    
+
 
 ### Visualisation des analyses pour les événements personnalisés
 
