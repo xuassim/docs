@@ -7,27 +7,91 @@ title: 'Shopify'
 
 **Suivez les étapes de la vidéo pour en savoir plus**
 
+## Modèle d'utilisation des actions Shopify : 
+
+### Exemple avec l'action "Chercher un client" (Search for Customer)
+
+Cette action consiste à rechercher un client existant de votre boutique.
+
+1. Remplir tous les champs requis
+
+Ci dessous vous devez choisir l'action "Search for customer et remplir les différent paramètres
+
+<img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1711635899/SCR-20240328-noju_gahvra.png" />
+
+### Payload (modèle de données que vous pourrez avoir en retour)
+
+```json
+{
+"customers": [
+{
+"id": 5969354489922,
+"email": null,
+"first_name": null,
+"last_name": "Siddiqui",
+"orders_count": 18,
+"last_order_id": 4862680858690,
+"phone": "+923032320964"
+},
+{
+"id": 554979819586,
+"email": "ouassim.mechalikh@gmail.com",
+"first_name": "Ouassim",
+"last_name": "Mechalikh",
+"orders_count": 14,
+"last_order_id": 4862144217154,
+"phone": null
+},
+{
+"id": 5969349214274,
+"email": "hammadsiizosqui788@gmail.com",
+"first_name": "Test",
+"last_name": "test",
+"orders_count": 1,
+"last_order_id": 4861820502082,
+"phone": null
+}
+]
+}
+
+```
+
+2. Selectionnez ensuite la ligne qui vous intéresse et sauvegardez la dans une variable. 
+<img height="200" src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1718724404/SCR-20240618-pglo_xdnpyq.png" />
+<Info>
+Vous pouvez sauvegarder autant de ligne que vous voulez
+</Info>
+
+<Info>
+Pour sauvegarder la totalité de la réponse, choisissez la première ligne tout en haut et sauvegardez le dans une variable JSON.
+</Info>
+
+
+
+3. Sauvegardez votre configuration.
+
+
 ## Utilisation de Shopify dans LineChat
 
 Pour utiliser Shopify dans votre flux de discussion, **ajoutez une carte action>Intégrations>Shopify**.
 
 <CardGroup cols={2}>
-  <Card title="Clients" icon="square-1" href="soon">
+  <Card title="Clients" icon="square-1" href="soon.mdx">
 
   </Card>
-  <Card title="Produits" icon="square-2" href="soon">
+  <Card title="Produits" icon="square-2" href="soon.mdx">
  
   </Card>
-  <Card title="Commandes" icon="square-3" href="soon">
+  <Card title="Commandes" icon="square-3" href="soon.mdx">
  
   </Card>
-  <Card title="Ecommerce" icon="square-4" href="soon">
+  <Card title="Ecommerce" icon="square-4" href="soon.mdx">
     
   </Card>
-   <Card title="Meta Fiels" icon="square-3" href="soon">
+   <Card title="Meta Fiels" icon="square-3" href="soon.mdx">
    
   </Card>
-  <Card title="Déclencheurs" icon="square-4" href="soon">
+  <Card title="Déclencheurs" icon="square-4" href="soon.mdx">
    
   </Card>
 </CardGroup>
