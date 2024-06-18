@@ -1,0 +1,70 @@
+---
+title: 'Widgets'
+---
+
+Les widgets vous permettent de configurer des éléments pour démarrer rapidement une conversation avec le bot. Pour cela, suivez les étapes suivantes :
+
+### Étapes de configuration
+
+1. Allez dans "Outils" dans la barre latérale gauche.
+2. Cliquez sur "Widgets".
+3. Cliquez sur "+ Nouveau Widget".
+
+## Widget URL de référence
+
+#### Étapes de configuration
+
+1. Donnez un nom au widget.
+2. Sélectionnez un sous-flux vers lequel le lien pointe.
+3. Laissez les champs 3 et 4 vides si vous n'avez pas besoin de référence.
+4. Entrez un nom de paramètre.
+5. Affectez un champ utilisateur personnalisé.
+
+#### Quel est le rôle du paramètre Ref?
+
+<Info>
+Par exemple, vous créez un lien URL de référence Messenger vers votre flux principal, afin que vos utilisateurs puissent démarrer une conversation avec votre bot en visitant ce lien. Cependant, vous souhaitez recueillir plus d'informations à partir du lien, comme l'endroit où vos utilisateurs ont obtenu le lien. Dans ce cas, vous pouvez entrer "source" dans le champ 3 et un variable pour stocker la source dans le champ 4.
+</Info>
+
+Plus tard, ajoutez un nom de source dans votre lien en fonction de l'endroit où vous le placez. C'est ainsi que vous obtenez des informations supplémentaires à partir du lien.
+
+#### Exemples de liens
+
+* https://m.me/102942588321862?ref=source
+* https://m.me/102942588321862?ref=source--publicité
+* https://m.me/102942588321862?ref=source--partagé_par_des_utilisateurs
+* https://m.me/102942588321862?ref=source--promu_par_les_ventes
+
+## Widget QR Code
+
+Les liens URL sont pratiques pour cliquer électroniquement, tandis que les codes QR sont plus adaptés pour une utilisation sur site. En scannant un code QR, vos utilisateurs peuvent démarrer une conversation avec votre bot.
+
+#### Étapes de configuration
+
+1. Donnez un nom au widget.
+2. Sélectionnez un sous-flux.
+3. Téléchargez votre image de logo.
+4. Ajustez la taille de l'image si nécessaire.
+5. Ajustez la couleur si nécessaire.
+6. Ajustez l'échelle des points si nécessaire.
+7. Cliquez sur "Générer" pour obtenir une image à droite. Répétez les étapes 4, 5 et 6 pour obtenir une image finale.
+8. Téléchargez votre code QR, imprimez-le et placez-le dans votre magasin, restaurant, bureau, etc.
+
+## Widget de chat client
+
+Ce widget est destiné à être intégré sur votre site web, afin que votre site web puisse avoir un bot servant les utilisateurs comme le fait LineChat :
+
+#### Étapes de configuration
+
+1. Donnez un nom au widget.
+2. Sélectionnez un sous-flux.
+3. Ajustez la couleur du thème si nécessaire.
+4. Ajustez le message de salutation qui sera affiché au-dessus du bouton "Continuer en tant que xx" (voir dans l'image précédente).
+5. Sélectionnez un type d'affichage.
+6. Ajustez le délai si le deuxième ou le troisième type d'affichage est sélectionné.
+7. Pour la charge utile, voir l'explication ci-dessus pour le widget URL de référence Messenger.
+8. Cliquez sur "Enregistrer" après avoir terminé toutes les réglages. Cliquez à nouveau sur le crayon pour éditer ce widget et vous verrez ce bouton :
+9. Cliquez dessus.
+10. Ajoutez les sites web où vous souhaitez placer ce bot. Ensuite, installez le code en le copiant et le collant.
+
+Parfait ! Vous avez maintenant un bot sur votre site web. 
