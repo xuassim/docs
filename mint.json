@@ -81,11 +81,30 @@
                   "integration/shopify"
                 ]
             }
+            {
+                "group": "Outils",
+                "pages": [
+                  "flow builder/tool/admins",
+                  "flow builder/tool/journeaux",
+                  "flow builder/tool/language",
+                  "flow builder/tool/tester",
+                  "flow builder/tool/widgets"
+                ]
+            }
+            {
+                "group": "Automatisation",
+                "pages": [
+                  "features/automatisation/keywords",
+                  "features/automatisation/sequence"
+                ]
+            }
       ]
     },
     {
       "group": "Fonctionnalités",
       "pages": [
+        "features/boards",
+        "features/event"
         "livechat/config",
         "livechat/livechat"
       ]
@@ -107,6 +126,12 @@
         "canal d'intégrations/canal-instagram",
         "canal d'intégrations/canal-telegram",
         "canal d'intégrations/canal-websites"
+      ]
+    }
+        {
+      "group": "Divers",
+      "pages": [
+        "template-message"
       ]
     }
   ],
