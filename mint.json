@@ -18,7 +18,9 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto: support@linechat.co",
+      "url": "mailto: support@linechat.co"
+    },
+    {
       "name": "Statut",
       "url": "https://statut.linechat.co"
     }
@@ -63,48 +65,50 @@
     {
       "group": "Construire mon chatbot",
       "pages": [
-                    {
-                "group": "Cartes/Etapes",
-                "pages": ["flow builder/Cartes/send-messages",
-         "flow builder/Cartes/questions",
-         "flow builder/Cartes/actions",
-         "flow builder/Cartes/goto",
-         "flow builder/Cartes/split",
-         "flow builder/Cartes/if",
-         "flow builder/Cartes/comment"]
-            },
-            {
-                "group": "Intégrations",
-                "pages": [
-                  "integration/openai",
-                  "integration/paypal",
-                  "integration/shopify"
-                ]
-            }
-            {
-                "group": "Outils",
-                "pages": [
-                  "flow builder/tool/admins",
-                  "flow builder/tool/journeaux",
-                  "flow builder/tool/language",
-                  "flow builder/tool/tester",
-                  "flow builder/tool/widgets"
-                ]
-            }
-            {
-                "group": "Automatisation",
-                "pages": [
-                  "features/automatisation/keywords",
-                  "features/automatisation/sequence"
-                ]
-            }
+        {
+          "group": "Cartes/Etapes",
+          "pages": [
+            "flow builder/Cartes/send-messages",
+            "flow builder/Cartes/questions",
+            "flow builder/Cartes/actions",
+            "flow builder/Cartes/goto",
+            "flow builder/Cartes/split",
+            "flow builder/Cartes/if",
+            "flow builder/Cartes/comment"
+          ]
+        },
+        {
+          "group": "Intégrations",
+          "pages": [
+            "integration/openai",
+            "integration/paypal",
+            "integration/shopify"
+          ]
+        },
+        {
+          "group": "Outils",
+          "pages": [
+            "flow builder/tool/admins",
+            "flow builder/tool/journeaux",
+            "flow builder/tool/language",
+            "flow builder/tool/tester",
+            "flow builder/tool/widgets"
+          ]
+        },
+        {
+          "group": "Automatisation",
+          "pages": [
+            "features/automatisation/keywords",
+            "features/automatisation/sequence"
+          ]
+        }
       ]
     },
     {
       "group": "Fonctionnalités",
       "pages": [
         "features/boards",
-        "features/event"
+        "features/event",
         "livechat/config",
         "livechat/livechat"
       ]
@@ -127,8 +131,8 @@
         "canal d'intégrations/canal-telegram",
         "canal d'intégrations/canal-websites"
       ]
-    }
-        {
+    },
+    {
       "group": "Divers",
       "pages": [
         "template-message"
