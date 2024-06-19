@@ -25,12 +25,12 @@
   ],
   "topbarCtaButton": {
     "name": "Accéder à LineChat",
-    "url": "https://dash.linechat.co"
+    "url": "https://app.linechat.co"
   },
   "tabs": [
     {
       "name": "Référence API",
-      "url": "https://dash.linechat.co/api"
+      "url": "https://app.linechat.co/api"
     }
   ],
   "anchors": [
