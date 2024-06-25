@@ -82,6 +82,8 @@
           "pages": [
             "integration/openai",
             "integration/paypal",
+            "integration/woocommerce",
+            "integration/calendly",
             "integration/shopify"
           ]
         },
