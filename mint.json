@@ -59,8 +59,13 @@
         "introduction",
         "quickstart",
         "build-chatbot",
-        "concept",
         "flow-builder"
+      ]
+    },
+        {
+      "group": "Comprendre LineChat",
+      "pages": [
+        "concept"
       ]
     },
     {
