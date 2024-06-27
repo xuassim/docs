@@ -1,0 +1,59 @@
+---
+title: 'Intent/intention'
+---
+
+Le système de détection d'intention de LineChat, intégré avec OpenAI, permet aux utilisateurs de **rediriger le flux de discussion vers une autre flux en fonction de l'intention de l'utilisateur**. Grâce à OpenAI, nous pouvons également collecter des paramètres en fonction de l'intention de la requête fournie.
+
+### Établir une connexion avec Open AI
+
+Pour utiliser ce système, vous devez d'abord établir une connexion entre votre compte OpenAI et votre compte LineChat.
+
+1. Visitez le site web https://platform.openai.com et connectez-vous avec vos identifiants.
+2. Cliquez sur l'onglet "Personnel" en haut à droite de la page.
+3. Générez une clé API à partir de cette page.
+4. Notez que vous ne pourrez voir votre clé API qu'une seule fois.
+5. Copiez votre clé API et collez-la dans LineChat, puis cliquez sur "Enregistrer" pour établir la connexion.
+
+### Utiliser les intentions
+
+Vous pouvez utiliser les intentions en allant dans l'onglet "Automatisations" à l'intérieur de votre bot.
+
+* Le système de priorité dans les automatisations est le suivant : le bot reconnaît d'abord les intentions, puis les mots-clés, et enfin la réponse par défaut.
+
+### Créer des intentions
+<img src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1719503473/SCR-20240627-pqfp_dv8qvu.png"/>
+1. Activez le curseur "Détection d'intention automatique".
+2. Cliquez sur "+ Nouvelle intention" pour créer une nouvelle intention, puis donnez lui un nom.
+
+Ce nom va **permettre à l'IA de savoir ce que vous souhaiter cibler comme intentions**. Par exemple, sur l'image, quand quelqu’un parle de bijoux, et étant donné que c'est un chatbot e-commerce, nous allons chercher à rediriger vers un sous flux quand un prospect parle de bijoux au chatbot.
+
+3. Dans la fenêtre de création, vous verrez les paramètres suivants :
+	* Ajoutez des paramètres en cliquant sur "+ Ajouter un paramètre".
+
+Les paramètres sont en fait une liste de paramètre pour affiner l'intention avant de la renvoyer vers un sous flux. Par exemple, ici, nous souhaitons savoir le matériau recherché, le budget, etc... **Donc à chaque fois que le chatbot va détécter l'intention, il va poser toutes ses questions et enregistrer la réponse AVANT de rédiriger vers le sous flux**.
+
+	* Dans l'onglet "Liste de valeurs", vous pouvez donner des options à choisir pour vos paramètres. Par exemple, pour les matériaux, si on met "or", "argent" et "marbre", quand l'IA va poser la question du paramètre matériau, elle va donner le choix entre or, argent et marbre. Vous pouvez ajouter des valeurs en cliquant sur l'onglet "Valeurs" et en entrant les valeurs probables pour l'intention.
+
+    <img src="https://res.cloudinary.com/dfp1qo2jy/image/upload/v1719504292/SCR-20240627-prze_ndg0uz.png"/>
+    
+4. Enfin, vous devrez choisir un sous-flux à déclencher en fonction de l'état de votre intention.
+
+<Info>
+Toutes les données collectés sont sauvegarder dans une variable JSON et peuvent être réutilisées. Vous avez également la possibilité de choisir des variables individuelles pour chaque paramètres
+</Info>
+
+### Effacer les champs utilisateur après achèvement de l'intention
+
+Après un cycle d'intention, LineChat enregistre les valeurs des paramètres d'intention dans les champs utilisateur personnalisés. Si l'utilisateur interagit à nouveau avec le bot, les anciennes valeurs sont récupérées.
+
+Il est donc important de nettoyer les champs utilisateur après le cycle d'intention. Vous pouvez le faire en enregistrant les intentions directement dans un champ utilisateur JSON et en plaçant un nœud d'action à la fin de votre sous-flux pour effacer les valeurs.
+
+### Fonctionnement des intentions à l'intérieur du bot
+
+Les intentions sont déclenchées de la même manière que les automatisations de mots-clés ou de commentaires. L'utilisateur tape une question ou une déclaration, et le système de détection d'intention vérifie l'intention de la phrase en fonction des mots-clés utilisés et du score de confiance que vous lui avez fourni.
+
+Une fois qu'une intention est détectée avec succès, elle déclenche la collecte des valeurs de paramètres jusqu'à ce que tous les paramètres soient remplis avant de déclencher le flux final attaché.
+
+### Utilisation des tokens
+
+Pour la détection d'intention, les jetons sont utilisés en fonction du nombre de paramètres que l'intention doit remplir et du score de confiance. Cela signifie que plus le nombre de paramètres est élevé, plus les jetons sont consommés, et que plus le score de confiance est élevé, plus les jetons sont consommés lors de la détection d'intention.
