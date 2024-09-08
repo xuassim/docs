@@ -90,6 +90,7 @@
             "integration/paypal",
             "integration/woocommerce",
             "integration/calendly",
+            "integration/pabbly",
             "integration/shopify"
           ]
         },
@@ -117,6 +118,7 @@
       "pages": [
         "features/boards",
         "features/event",
+        "features/apikey",
         "livechat/config",
         "livechat/livechat"
       ]
